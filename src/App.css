@@ -1,10 +1,8 @@
 :root{
-    --mainPurple:#77628c;
-    --lightPurple:#7b52ae;
+    --mainBlue:#71a0a5;
     --mainWhite:#f3f3f3;
     --mainDark:#232528;
-    --mainGreen:#acc6aa;
-    --lightBlue: #71a0a5;
+    --darkBlue: #455e86;
 }
 
 body{
@@ -19,18 +17,18 @@ body{
     text-transform: uppercase;
 }
 
-.text-purple {
-    color: var(--mainPurple);
+.text-dark-blue {
+    color: var(--darkBlue);
 }
 
-.text-bright {
-    color: var(--lightPurple);
+.text-blue {
+    color: var(--mainBlue);
 }
 
-.fill-purple {
-    background-color: var(--mainPurple);
+.text-white {
+    color: var(--mainWhite);
 }
 
-.fill-bright {
-    background-color: var(--lightPurple);
+.fill-blue {
+    background-color: var(--mainBlue);
 }

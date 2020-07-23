@@ -38,7 +38,7 @@ export default class Product extends Component {
                         <p className="align-self-center mb-0">
                             {title}
                         </p>
-                        <h5 className="text-purple font-italic mb-0">
+                        <h5 className="dark-purple font-italic mb-0">
                             <span className="mr-1">$</span>
                             {price}
                         </h5>
@@ -99,7 +99,7 @@ const ProductWrapper = styled.div`
         bottom: 0;
         right: 0;
         padding: 0.2rem 0.4rem;
-        background: var(--lightPurple);
+        background: var(--mainBlue);
         border: none;
         color: var(--mainWhite);
         font-size: 1.4rem;
@@ -113,7 +113,7 @@ const ProductWrapper = styled.div`
     }
 
     .cart-btn:hover {
-        color: var(--mainPurple);
+        color: var(--mainBlue);
         cursor: pointer;
     }
 `;

@@ -26,17 +26,18 @@ class ProductProvider extends Component {
         console.log('Hello from detail');
     }
 
-    addToCart = () => {
-        console.log('Hello from add to cart');
+    addToCart = (id) => {
+        console.log(`Hello from add to cart.id is ${id}`);
     }
 
     render() {
         return (
-            <ProductContext.Provider value={{
-                ...this.state,
-                handleDetail: this.handleDetail,
-                addToCart: this.addToCart,
-            }}>
+            <ProductContext.Provider
+                value={{
+                    ...this.state,
+                    handleDetail: this.handleDetail,
+                    addToCart: this.addToCart,
+                }}>
                 {this.props.children}
             </ProductContext.Provider>
         )
