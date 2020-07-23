@@ -3,6 +3,8 @@
     --mainWhite:#f3f3f3;
     --mainDark:#232528;
     --darkBlue: #455e86;
+    --lightBlue: #b8cfd2;
+    --mainYellow: #d8bc70;
 }
 
 body{
@@ -17,12 +19,16 @@ body{
     text-transform: uppercase;
 }
 
+.text-blue {
+    color: var(--mainBlue);
+}
+
 .text-dark-blue {
     color: var(--darkBlue);
 }
 
-.text-blue {
-    color: var(--mainBlue);
+.text-light-blue {
+    color: var(--lightBlue);
 }
 
 .text-white {
